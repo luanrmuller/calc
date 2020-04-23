@@ -1,0 +1,6 @@
+.linha {
+  display: flex;
+}
+.btn0 {
+  flex: 2;
+}

@@ -1,0 +1,61 @@
+.calculadora {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+.textview {
+  grid-area: 1/1/1/5;
+}
+.btnc {
+  grid-area: 2/1/2/2;
+}
+.btns {
+  grid-area: 2/2/3/3;
+}
+.btnd {
+  grid-area: 2/3/3/4;
+}
+.btnmultiply {
+  grid-area: 2/4/3/5;
+}
+.btn7 {
+  grid-area: 3/1/4/2;
+}
+.btn8 {
+  grid-area: 3/2/4/3;
+}
+.btn9 {
+  grid-area: 3/3/4/4;
+}
+.btnsubtract {
+  grid-area: 3/4/4/5;
+}
+.btn4 {
+  grid-area: 4/1/5/2;
+}
+.btn5 {
+  grid-area: 4/2/5/3;
+}
+.btn6 {
+  grid-area: 4/3/5/4;
+}
+.btnadd {
+  grid-area: 4/4/5/5;
+}
+.btn1 {
+  grid-area: 5/1/6/2;
+}
+.btn2 {
+  grid-area: 5/2/6/3;
+}
+.btn3 {
+  grid-area: 5/3/6/4;
+}
+.btneq {
+  grid-area: 5/4/7/5;
+}
+.btn0 {
+  grid-area: 6/1/7/3;
+}
+.btndot {
+  grid-area: 6/3/7/3;
+}

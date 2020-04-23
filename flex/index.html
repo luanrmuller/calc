@@ -10,55 +10,50 @@
       integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style-flexbox.css" />
+    <link rel="stylesheet" href="../public/css/global.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Calculadora App</title>
 
-    <script src="js/main.js"></script>
+    <script src="../public/js/main.js"></script>
   </head>
   <body>
     <div class="container">
       <header class="header">
-        <h1><i class="fas fa-calculator"></i> Calculadora</h1>
+        <h1><i class="fas fa-calculator"></i> Calculadora Flex Container - 2.557 bytes</h1>
       </header>
       <main class="calculadora">
         <input class="textview" type="text" />
-
-        <div class="linhaum">
+        <div class="linha">
           <button onclick="clean()" class="btnc">C</button>
           <button onclick="back()" class="btns"><-</button>
           <button onclick="insert('/')" class="btnd">/</button>
           <button onclick="insert('*')" class="btnmultiply">X</button>
         </div>
-
-        <div class="linhadois">
+        <div class="linha">
           <button onclick="insert(7)" class="btn7">7</button>
           <button onclick="insert(8)" class="btn8">8</button>
           <button onclick="insert(9)" class="btn9">9</button>
           <button onclick="insert('-')" class="btnsubtract">-</button>
         </div>
-
-        <div class="linhatres">
+        <div class="linha">
           <button onclick="insert(4)" class="btn4">4</button>
           <button onclick="insert(5)" class="btn5">5</button>
           <button onclick="insert(6)" class="btn6">6</button>
           <button onclick="insert('+')" class="btnadd">+</button>
         </div>
-        
-        <div class="linhaquatro">
-          <div class="col1">
-            <div class="l1">
+        <div class="linha">
+          <div>
+            <div class="linha">
               <button onclick="insert(1)" class="btn1">1</button>
               <button onclick="insert(2)" class="btn2">2</button>
               <button onclick="insert(3)" class="btn3">3</button>
             </div>
-
-            <div class="l2">
+            <div class="linha">
               <button onclick="insert(0)" class="btn0">0</button>
               <button onclick="insert('.')" class="btndot">.</button>
             </div>
           </div>
-          
-          <div class="col2">
+          <div class="linha">
             <button onclick="equal()" class="btneq">=</button>
           </div>
         </div>
